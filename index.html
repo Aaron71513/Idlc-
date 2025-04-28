@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Surf Watch OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Surf Watch OS</h1>
+        <div id="time"></div>
+        <div id="wave-interval">Wave Interval: Loading...</div>
+        <div id="tide-info">Tide: Loading...</div>
+        <div id="sunset-timer">Time to Sunset: Loading...</div>
+        <div id="rip-current">Rip Current Warning: Loading...</div>
+        <div id="shark-warning">Shark Warnings: Loading...</div>
+        <div id="wetsuit-recommendation">Wetsuit: Loading...</div>
+        <div id="training-mode" style="display:none;">
+            <h2>Training Mode</h2>
+            <p>Drill: Paddle Sprint 30s, Duck Dive Practice</p>
+        </div>
+        <button onclick="toggleTraining()">Toggle Training Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
